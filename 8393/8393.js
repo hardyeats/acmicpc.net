@@ -1,3 +1,6 @@
+/**
+ * 제출오류가 반복돼 readline 사용 포기함.
+ */
 const readline = require("readline").createInterface({
   input: process.stdin,
 });
