@@ -6,9 +6,7 @@ let result = "";
 for (let i = 0; i < T; i++) {
   const [R, S] = lines[i].split(" ");
   for (let j = 0; j < S.length; j++) {
-    for (let k = 0; k < R; k++) {
-      result += S[j];
-    }
+    result += S[j].repeat(R);
   }
   result += "\n";
 }
